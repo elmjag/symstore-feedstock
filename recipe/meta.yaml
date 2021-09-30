@@ -30,13 +30,13 @@ test:
     - symstore --help
 
 about:
-  home: https://github.com/elmirjagudin/symstore
+  home: https://github.com/symstore/symstore
   license: MIT
   license_family: MIT
   license_file: LICENSE
   summary: publish PDB and PE files to symbols store
-  doc_url: https://github.com/elmirjagudin/symstore/blob/v{{ version }}/README.rst
-  dev_url: https://github.com/elmirjagudin/symstore/
+  doc_url: https://github.com/symstore/symstore/blob/v{{ version }}/README.md
+  dev_url: https://github.com/symstore/symstore/
 
 extra:
   recipe-maintainers:

@@ -1,7 +1,7 @@
 About symstore
 ==============
 
-Home: https://github.com/elmirjagudin/symstore
+Home: https://github.com/symstore/symstore
 
 Package license: MIT
 
@@ -9,9 +9,9 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/symstore-feedst
 
 Summary: publish PDB and PE files to symbols store
 
-Development: https://github.com/elmirjagudin/symstore/
+Development: https://github.com/symstore/symstore/
 
-Documentation: https://github.com/elmirjagudin/symstore/blob/v0.3.2/README.rst
+Documentation: https://github.com/symstore/symstore/blob/v0.3.3/README.md
 
 Current build status
 ====================
@@ -119,5 +119,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@elmirjagudin](https://github.com/elmirjagudin/)
+* [@elmjag](https://github.com/elmjag/)
 
