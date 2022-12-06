@@ -1,5 +1,5 @@
 {% set name = "symstore" %}
-{% set version = "0.3.3" %}
+{% set version = "0.3.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ff59bdcae166a3507102d9d6b3872f5e5c48291c59e7c335f460ae88f4d409f7
+  sha256: cfcda73775c59f9ede63422b8c0a0b36b512b1b8c6e30f29de22e55888db872a
 
 build:
   noarch: python
@@ -19,9 +19,10 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
+    - flit
   run:
-    - python
+    - python >=3.6
 
 test:
   imports:
