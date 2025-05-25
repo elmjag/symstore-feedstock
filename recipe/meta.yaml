@@ -1,5 +1,5 @@
 {% set name = "symstore" %}
-{% set version = "0.3.4" %}
+{% set version = "0.3.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: cfcda73775c59f9ede63422b8c0a0b36b512b1b8c6e30f29de22e55888db872a
+  sha256: 0b7a4101d73be42f8e6c4d955770465be523a302d699031c5a1acbb9fd5a8e9f
 
 build:
   noarch: python
